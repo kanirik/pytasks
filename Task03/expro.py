@@ -26,5 +26,5 @@ if __name__ == '__main__':
     time0 = time.time()
     array = calc(int(sys.argv[1]))
     time1 = time.time()
-    print 'time C: ', time1 - time0
+    print 'time: ', time1 - time0
     #print arrayToList(array)
